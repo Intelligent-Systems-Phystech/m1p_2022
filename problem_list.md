@@ -34,7 +34,7 @@
 * __Название__: Выбор модели глубокого обучения с контролем соответствия экспертной модели
 * __Задача__: рассматривается задача классификации. Задана экспертная модель низкой сложности. Требуется построить модель глубокого обучения, дающую высокое качество прогноза и схожую по поведению экспертной модели.
 * __Данные__: Социологические выборки, выборка изображений CIFAR
-Литература: Yakovlev Konstantin, Grebenkova Olga, Bakhteev Oleg, Strijov Vadim. Neural architecture search with structure complexity control // Communications in Computer and Information Science (Proceedings of the 10th International Conference on Analysis of Images, Social Networks and Texts), 2021
+* __Литература__: Yakovlev Konstantin, Grebenkova Olga, Bakhteev Oleg, Strijov Vadim. Neural architecture search with structure complexity control // Communications in Computer and Information Science (Proceedings of the 10th International Conference on Analysis of Images, Social Networks and Texts), 2021
 * __Базовый алгоритм__: построение экспертной модели.
 * __Решение__: Предлагаемый метод заключается в гиперсетей с контролем согласованности найденной модели с экспертной моделью. Под гиперсетью понимается модель глубокого обучения, порождающая параметры целевой модели.
 * __Новизна__: предложенный метод позволяет учитывать экспертную оценку в процессе выбора модели и поиска архитектуры.
