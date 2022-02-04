@@ -34,15 +34,15 @@
 * __Задача__: Прогноз риска возникновения лесных пожаров (wildfire risk prediction) по значениям климатических переменных (температура воды/воздуха, атмосферное давление) с 1991 года. Прогнозирование осуществляется (а) в краткосрочном диапазоне (2-5 лет; стационарный временной ряд) и (б) в долгосрочном диапазоне (до 50 лет; нестационарный временной ряд). Особенность прогнозирования в долгосрочном диапазоне состоит в (вероятном) существенном изменении поведения климатических переменных (сценарии CMIP5). 
 Ключевые особенности задачи (1) необходимость достаточно точного прогноза экстремальных значений риска (максимальных значений временного ряда), в то время как алгоритм может совершать существенное число ошибок в области малых значений ряда. (2) пространственная структура данных ряда. 
 * __Данные__: 
-* 1. Google Earth Data – данные по климатическим переменным и ланшафту, доступные по API (есть jupyter notebook, через который можно скачать данные локально)
+  1. Google Earth Data – данные по климатическим переменным и ланшафту, доступные по API (есть jupyter notebook, через который можно скачать данные локально)
 https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE 
-* 2. Климатические сценарии CMIP5 (есть jupyter notebook, через который можно скачать данные локально)  https://www.worldclim.org/data/cmip6/cmip6_clim2.5m.html
-* 3. Wildfire Risk Database https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=8
-* 4. Severe Weather Dataset https://www.visualcrossing.com/weather/weather-data-services 
+  2. Климатические сценарии CMIP5 (есть jupyter notebook, через который можно скачать данные локально)  https://www.worldclim.org/data/cmip6/cmip6_clim2.5m.html
+  3. Wildfire Risk Database https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=8
+  4. Severe Weather Dataset https://www.visualcrossing.com/weather/weather-data-services 
 * __Литература__: 
-* 1. Daizong Ding, Mi Zhang, Xudong Pan, Min Yang, Xiangnan He. Modeling Extreme Events in Time Series Prediction. KDD-2019. http://staff.ustc.edu.cn/~hexn/papers/kdd19-timeseries.pdf 
-* 2. Roman Kail, Alexey Zaytsev, Evgeny Burnaev. Recurrent Convolutional Neural Networks help to predict location of Earthquakes. https://arxiv.org/abs/2004.09140 
-* 3. Nikolay Laptev, Jason Yosinski, Li Erran Li, Slawek Smyl. Time-series Extreme Event Forecasting with Neural Networks at Uber. http://roseyu.com/time-series-workshop/submissions/TSW2017_paper_3.pdf 
+  1. Daizong Ding, Mi Zhang, Xudong Pan, Min Yang, Xiangnan He. Modeling Extreme Events in Time Series Prediction. KDD-2019. http://staff.ustc.edu.cn/~hexn/papers/kdd19-timeseries.pdf 
+  2. Roman Kail, Alexey Zaytsev, Evgeny Burnaev. Recurrent Convolutional Neural Networks help to predict location of Earthquakes. https://arxiv.org/abs/2004.09140 
+  3. Nikolay Laptev, Jason Yosinski, Li Erran Li, Slawek Smyl. Time-series Extreme Event Forecasting with Neural Networks at Uber. http://roseyu.com/time-series-workshop/submissions/TSW2017_paper_3.pdf 
 * __Базовой алгоритм__: (1) метод из статьи 1, (2).  ST-LSTM
 * __Решение__: предлагается решать задачу в два шага. На первом шаге алгоритмом 1 (с добавление пространственной компоненты) восстанавливается (усредненное в некотором диапазоне) поведение временного ряда. Далее, анализируется невязка значений ряда и модели. На основе этого восстанавливается распределение шума и строится вероятностная модель достижения определенного уровня риска на заданной территории в необходимом диапазоне времени. 
 * __Новизна__: (geo)-spatial time series prediction – открытая область с большим потенциалом для теоретических и практических работ. В частности, оценка риска пожаров необходима (1) прогноза вероятности аварий (электроэнергетика, газо-транспортный комплекс); (2) приоритизации противопожарных мер по регионам; (3) оценки финансовых рисков компаний работающих в области. 
@@ -54,15 +54,16 @@ https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACL
 * __Задача__: Прогноз риска выпадения града (hail risk prediction) по значениям климатических переменных (температура воды/воздуха, атмосферное давление) с 1991 года. Прогнозирование осуществляется (а) в краткосрочном диапазоне (2-5 лет; стационарный временной ряд) и (б) в долгосрочном диапазоне (до 50 лет; нестационарный временной ряд). Особенность прогнозирования в долгосрочном диапазоне состоит в (вероятном) существенном изменении поведения климатических переменных (сценарии CMIP5). 
 Ключевые особенности задачи (1) редкие события, случае выпадения града в России за последние 30 лет было менее 700 на всей территории страны (2) пространственная структура данных ряда. 
 * __Данные__: 
-* 1. Google Earth Data – данные по климатическим переменным и ланшафту, доступные по API (есть jupyter notebook, через который можно скачать данные локально)
+  1. Google Earth Data – данные по климатическим переменным и ланшафту, доступные по API (есть jupyter notebook, через который можно скачать данные локально)
 https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE 
-* 2. Климатические сценарии CMIP5 (есть jupyter notebook, через который можно скачать данные локально)  https://www.worldclim.org/data/cmip6/cmip6_clim2.5m.html
-* 3. База экстремальных событий  NOAA Storm Events Database https://www.ncdc.noaa.gov/stormevents/ftp.jsp
-* 4. База экстремальных событий European Severe Weather Database https://eswd.eu/cgi-bin/eswd.cgi
-* 5. Severe Weather Datasett https://www.visualcrossing.com/weather/weather-data-services
-* __Литература__: 1. Ayush, Kumar, et al. "Geography-aware self-supervised learning." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. https://openaccess.thecvf.com/content/ICCV2021/papers/Ayush_Geography-Aware_Self-Supervised_Learning_ICCV_2021_paper.pdf 
-* 2. Cachay, Salva Rühling, et al. "Graph Neural Networks for Improved El Ni\~ no Forecasting." arXiv preprint arXiv:2012.01598 (2020). NeurIPS Clima Workshop. https://arxiv.org/pdf/2012.01598.pdf 
-* 3. Cai, Lei, et al. "Structural temporal graph neural networks for anomaly detection in dynamic graphs." Proceedings of the 30th ACM International Conference on Information & Knowledge Management. 2021. https://dl.acm.org/doi/pdf/10.1145/3459637.3481955 
+  2. Климатические сценарии CMIP5 (есть jupyter notebook, через который можно скачать данные локально)  https://www.worldclim.org/data/cmip6/cmip6_clim2.5m.html
+  3. База экстремальных событий  NOAA Storm Events Database https://www.ncdc.noaa.gov/stormevents/ftp.jsp
+  4. База экстремальных событий European Severe Weather Database https://eswd.eu/cgi-bin/eswd.cgi
+  5. Severe Weather Datasett https://www.visualcrossing.com/weather/weather-data-services
+* __Литература__: 
+  1. Ayush, Kumar, et al. "Geography-aware self-supervised learning." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. https://openaccess.thecvf.com/content/ICCV2021/papers/Ayush_Geography-Aware_Self-Supervised_Learning_ICCV_2021_paper.pdf 
+  2. Cachay, Salva Rühling, et al. "Graph Neural Networks for Improved El Ni\~ no Forecasting." arXiv preprint arXiv:2012.01598 (2020). NeurIPS Clima Workshop. https://arxiv.org/pdf/2012.01598.pdf 
+  3. Cai, Lei, et al. "Structural temporal graph neural networks for anomaly detection in dynamic graphs." Proceedings of the 30th ACM International Conference on Information & Knowledge Management. 2021. https://dl.acm.org/doi/pdf/10.1145/3459637.3481955 
 * __Базовой алгоритм__: классификация с экстремально редкими событиями, самый базовый вариант log-regression + SMOTE. За основу в работе предлагается взять комбинацию алгоритмов из статей 2 и 3.
 * __Решение__: предполагается, что комбинация алгоритмов из статей 2 и 3 может улучшить классификацию в подобных задачах с исключительно редкими событиями. Кроме того, предполагается использовать физическую информацию для регуляризации классификатора (комбинации температурных/влажностных факторов, при которой град наиболее вероятен)
 * __Новизна: (geo)-spatial time series prediction – открытая область с большим потенциалом для теоретических и практических работ. В частности, оценка риска пожаров необходима (1) прогноза вероятности повреждений (сельское хозяйство, животноводство); (2) оценка страховых и финансовых рисков.
@@ -74,18 +75,18 @@ https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACL
 * __Задача__: Ставится задача поиска оптимальных зависимых от времени параметров для известной стохастической модели распространения заболевания SIER.  Оптимальные параметры-это параметры стохастического уравнения, при которых выборка  скорости распространения вируса в ограниченной популяции, при использовании сравнения с оптимальной выборкой. Предлагается использовать адаптивный обобщенный метод моментов с локальным запаздыванием (LLGMM) основаный на обобщенном методе моментов (GMM). 
 * __Данные__: Данные по росту заболеваний коронавирусом от Института Хопкинса доступны на различных ресурсах. Также данные можно скачать самостоятельно по ссылке 
 * __Литература__: 
-*  1. Anna Mummert, Olusegun M. Otunuga  Parameter identification for a stochastic SEIRS epidemic model: case study influenza PDF
-* 2. David M. Drukker Understanding the generalized method of moments (GMM): A simple example LINK
+  1. Anna Mummert, Olusegun M. Otunuga  Parameter identification for a stochastic SEIRS epidemic model: case study influenza PDF
+  2. David M. Drukker Understanding the generalized method of moments (GMM): A simple example LINK
 * __Ключевые слова__: Compartment disease model, Stochastic disease model, Local lagged adapted generalized method of moments,  Time-dependent transmission rate
 * __Базовый алгоритм__: в интернете несколько разных вариантов, например статья  B.Tseytlin Actually forecasting COVID-19 LINK нынешняя программа не дает хорошей сходимости, потому что использует всегда фиксированное количество точек для предсказания
 * __Новизна__: новый LLGMM метод моментов, повышающий точность предсказания&  Базовая идея метода моментов заключается в использовании в моментных условиях (моментные функции или просто моменты) вместо математических ожиданий выборочные средние, которые согласно закону больших чисел при достаточно слабых условиях должны асимптотически сходится к математическим ожиданиям. Поскольку количество условий на моменты в общем случае больше количества оцениваемых параметров, то однозначного решения эта система условий не имеет. Обобщенный метод моментов предлагает ситуацию, когда условий на моменты можно получить больше, чем оцениваемых параметров. Метод строит условия момента (моментные функции), также называемые условиями ортогональности, в более общем виде как некоторую функцию параметров и данных модели. Параметры оцениваются путем минимизации определенной положительно квадратичной формы от выборочных средних для моментов (моментных функций). Квадратичная форма находится в итерационном процессе с требуемой точностью. Если модель содержит более одного параметра (это наш случай), подлежащего идентификации, то для построения условий момента  используются второй и выше моменты. LLGMM определяет зависящие от времени параметры, используя ограниченное количество «точек» временного ряда данных для формирования условий момента, а не весь ряд. Таким образом, метод запаздывает. Кроме того, количество используемых элементов временного ряда варьируется для каждой оценки в зависимости от времени. Таким образом, метод является локальным и адаптивным.
 * __Автор__: эксперт Маркашева Вера (лаборатория вычислительной биоинформацики Центра системной биологии)
 
 ## Задача 96
-* __Название__: Влияние локдауна на динамику эпидемии.
+* __Название__: Влияние локдауна на динамику эпидемии
 * __Задача__: Введение локдауна считается эффективной мерой по борьбе с эпидемией. Однако вопреки интуиции оказалось, что при определенных условиях локдаун может привести к росту эпидемии.  Данный эффект отсутствует для классических моделей «в среднем», но был выявлен при моделировании распространения эпидемии с учетом графа контактов. Задача заключается в поиске формульных и количественных соотношений между параметрами, при которых локдаун может привести к росту эпидемии.
 * __Данные__: Реальные данных о распространении эпидемии на графах контактов, особенно с учетом необходимости анализа сценариев недоступны. Задача предполагает работу с модельными и синтетическими данными: имеются готовые данные, а также предполагается возможность генерации новых в процессе решения задачи.
-* __Литература__: Будет позже.
+* __Литература__: 
 * __Авторы__: Антон Бишук, А.В. Зухба
 
 # Шаблон описания научной статьи
