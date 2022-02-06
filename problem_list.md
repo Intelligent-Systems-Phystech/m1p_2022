@@ -66,7 +66,7 @@
 ## Задача 101
 * __Title__: Stochastic Newton with Arbitrary Sampling
 * __Problem__: We analyze second order methods solving Empirical Risk Minimization problem of the form min f(x) in R^d. Here x is a parameter vector of some Machine Learning model, f_i(x) is a loss function on i-th training point (a_i,b_i). Our desire to solve it using Newton-type method that requires access to only one data point per iteration. We investigate different sampling strategies of index i_k on iteration k. See description in [PDF.](http://www.machinelearning.ru/wiki/images/5/5c/Stochastic_Newton_with_Arbitrary_Sampling.pdf)
-* __Dataset: It is proposed to use open SVM library as a data for experimental part of the work.
+* __Dataset__: It is proposed to use open SVM library as a data for experimental part of the work.
 * __References__:
   1. Stochastic Newton and Cubic Newton Methods with Simple Local Linear-Quadratic Rates
   2. Parallel coordinate descent methods for big data optimization
