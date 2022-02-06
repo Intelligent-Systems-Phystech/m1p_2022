@@ -63,6 +63,18 @@
 * __Новизна__: заключается в получении нового класса нейронных моделей, поддающихся хорошей интерпретации.
 * __Авторы__: Яковлев, Бахтеев, (Стрижов)
 
+## Задача 101
+* __Title__: Stochastic Newton with Arbitrary Sampling
+* __Problem__: We analyze second order methods solving Empirical Risk Minimization problem of the form min f(x) in R^d. Here x is a parameter vector of some Machine Learning model, f_i(x) is a loss function on i-th training point (a_i,b_i). Our desire to solve it using Newton-type method that requires access to only one data point per iteration. We investigate different sampling strategies of index i_k on iteration k. See description in [PDF.](http://www.machinelearning.ru/wiki/images/5/5c/Stochastic_Newton_with_Arbitrary_Sampling.pdf)
+* __Dataset: It is proposed to use open SVM library as a data for experimental part of the work.
+* __References__:
+  1. Stochastic Newton and Cubic Newton Methods with Simple Local Linear-Quadratic Rates
+  2. Parallel coordinate descent methods for big data optimization
+* __Base algorithm__: As a base method it is proposed to use Algorithm 1 from the paper Stochastic Newton and Cubic Newton Methods with Simple Local Linear-Quadratic Rates.
+* __Solution__: Is is proposed to adjust existing sampling strategies from Parallel coordinate descent methods for big data optimization in this work.
+* __Novelty__: In the literature of Second Order methods there are a few works on incremental methods. The idea is to analyze the existing method by applying different sampling strategies. It is known that the proper sampling strategies may improve the performance of a method.
+* __Authors__:  Исламов Рустем 
+
 ## Задача 92
 * __Задача__: Тематическое моделирование 
 * __Данные__:
