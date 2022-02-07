@@ -73,7 +73,7 @@
 * __Base algorithm__: As a base method it is proposed to use Algorithm 1 from the paper Stochastic Newton and Cubic Newton Methods with Simple Local Linear-Quadratic Rates.
 * __Solution__: Is is proposed to adjust existing sampling strategies from Parallel coordinate descent methods for big data optimization in this work.
 * __Novelty__: In the literature of Second Order methods there are a few works on incremental methods. The idea is to analyze the existing method by applying different sampling strategies. It is known that the proper sampling strategies may improve the performance of a method.
-* __Authors__:  Исламов Рустем 
+* __Authors__:  Islamov Rustem, Vadim Strijov
 
 ## Задача 92
 * __Задача__: Тематическое моделирование 
