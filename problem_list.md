@@ -144,6 +144,30 @@ https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACL
 * __Литература__: 
 * __Авторы__: Антон Бишук, А.В. Зухба
 
+## Задача 97
+
+* __Название__: Графовые нейронные сети в задаче регрессии пар графов
+
+* __Задача__: Рассматривается задача регрессии на паре графов. В паре каждой вершине одного графа соответствует вершина
+второго графа. Требуется установить оптимальную архитектуру графовой нейронной сети, учитывающий данный порядок,
+заданный на вершинах.
+
+* __Данные__: Предлагается использовать датасеты свойств химических реакций 
+[(github)](https://github.com/hesther/reactiondatabase). Для данного датасета пара графов задается естественным образом.
+Это графы молекул исходных веществ и продуктов химической реакции. 
+
+* __Литература__:
+  * [DRACON: disconnected graph neural network for atom mapping in chemical reactions.](https://chemrxiv.org/engage/chemrxiv/article-details/60c74e0f9abda2cf1af8d58a)
+  * [Machine learning of reaction properties via learned representations of the condensed graph of reaction.](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6112ac487117507542e68bef/original/machine-learning-of-reaction-properties-via-learned-representations-of-the-condensed-graph-of-reaction.pdf)
+  * [A comprehensive survey on graph neural networks.](https://ieeexplore.ieee.org/abstract/document/9046288)
+* __Базовый алгоритм__: Отношение графов задается на уровне эмбеддингов графов. То есть строится отдельный 
+вектор-эмбеддинг для каждого графа, а затем данные вектора конкатенируются. В данном случае явно не используется информация
+о соответствии вершин в графах. 
+* __Новизна__: На примере единой архитектуры графовой нейронной сети с теоретической и практической точки зрения 
+изучить способы добавления в графовую нейронную сеть информацию об отношении графов. 
+* __Авторы__: Никитин Филипп, Вадим Стрижов, Александр Исаев. 
+
+
 # Шаблон описания научной статьи
 ## Задача 101
 * __Название__: Название, под которым статья подается в журнал. 
