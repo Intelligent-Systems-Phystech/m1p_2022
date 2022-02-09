@@ -145,17 +145,13 @@ https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACL
 * __Авторы__: Антон Бишук, А.В. Зухба
 
 ## Задача 102
-
 * __Название__: Графовые нейронные сети в задаче регрессии пар графов
-
 * __Задача__: Рассматривается задача регрессии на паре графов. В паре каждой вершине одного графа соответствует вершина
 второго графа. Требуется установить оптимальную архитектуру графовой нейронной сети, учитывающий данный порядок,
 заданный на вершинах.
-
 * __Данные__: Предлагается использовать датасеты свойств химических реакций 
 [(github)](https://github.com/hesther/reactiondatabase). Для данного датасета пара графов задается естественным образом.
 Это графы молекул исходных веществ и продуктов химической реакции. 
-
 * __Литература__:
   * [DRACON: disconnected graph neural network for atom mapping in chemical reactions.](https://chemrxiv.org/engage/chemrxiv/article-details/60c74e0f9abda2cf1af8d58a)
   * [Machine learning of reaction properties via learned representations of the condensed graph of reaction.](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6112ac487117507542e68bef/original/machine-learning-of-reaction-properties-via-learned-representations-of-the-condensed-graph-of-reaction.pdf)
@@ -167,6 +163,24 @@ https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACL
 изучить способы добавления в графовую нейронную сеть информацию об отношении графов. 
 * __Авторы__: Никитин Филипп, Вадим Стрижов, Александр Исаев. 
 
+## Problem 103
+* __Requirement__ Flient English to collaborate
+* __Introduction__ [See full description here.](http://www.machinelearning.ru/wiki/images/f/fa/M1p_ppis.pdf). Proteins are involved in several biological reactions by means of interactions with other proteins or with other molecules such as nucleic acids, carbohydrates, and ligands. Among these interaction
+types, protein–protein interactions (PPIs) are considered to be one of the key factors as they are involved in most of the cellular processes [1]. The binding of two proteins can be viewed as a reversible and rapid process in an equilibrium that is governed by the law of mass action. Binding affinity is the strength of the interaction between two (or more than two) molecules that bind reversibly (interact). It is translated into physico-chemical terms in the dissociation constant Kd, the latter being the concentration of free protein at which half of all binding sites of the second protein type are occupied [2]. 
+* __Objectives__  Three main objectives of this work can be formulated as follows:
+  1. Refine PDBbind [12] data and a standard binding affinity dataset [3], and compile a novel
+benchmark of PPIs with known binding affinity values
+  2. Employ graph-learning toolset to predict binding affinities of PPIs from the new dataset
+  3. Benchmark the resulting method against existing state-of-the-art approaches
+* __Data & Metrics__ In this work, we will operate on experimentally-observed three-dimensional structures of protein-protein complexes annotated with the binding affinity values. Two main sources of data are the following:
+  * PDBbind dataset [12] that includes around 2k PPIs
+  * Standard dataset introduced in [3] that includes 144 PPIs As main regression metrics, we suggest to consider Mean Squared Error (MSE), Mean Absolute Error (MAE) and Pearson correlation.
+* __Novelty__ To the best of our knowledge, geometric deep learning methods have never been applied to the protein-protein binding affinity prediction problem so far.
+* __Requirements__ 
+  * Fluent English
+  * Python and PyTorch (medium level and higher), Git, Bash
+  * Background in computational biology is a plus
+* __Authors__: Arne Schneuing, Ilia Igashov
 
 # Шаблон описания научной статьи
 ## Задача 101
