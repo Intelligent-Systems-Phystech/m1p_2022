@@ -75,6 +75,20 @@
 * __Novelty__: In the literature of Second Order methods there are a few works on incremental methods. The idea is to analyze the existing method by applying different sampling strategies. It is known that the proper sampling strategies may improve the performance of a method.
 * __Authors__:  Islamov Rustem, Vadim Strijov
 
+## Задача 102
+* __Title__: Compression for Federated Random Reshuffling
+* __Problem__: We analyze first order methods solving Empirical Risk Minimization problem of the form min f(x) in R^d. Here x is a parameter vector of some Machine Learning model, f_i(x) is a loss function on i-th training point (a_i,b_i). We focus on distributed setting of this problem. We are going to apply compression techniques to reduce number of communicated bits to overcome communication bottleneck. Also we want to combine it with server-side updates. We desire to generilize and get improvement in theory and practice.
+* __Dataset__: It is proposed to use open SVM library as a data for experimental part of the work.
+* __References__:
+  1. [Federated Random Reshuffling with Compression and Variance Reduction](https://fl-icml.github.io/2021/papers/FL-ICML21_paper_34.pdf)
+  2. [Proximal and Federated Random Reshuffling](https://arxiv.org/pdf/2102.06704.pdf)
+  3. [Server-Side Stepsizes and Sampling Without Replacement Provably Help in Federated Optimization](https://arxiv.org/pdf/2201.11066.pdf)
+* __Base algorithm__: As a base method we use Algorithm 3 from [Proximal and Federated Random Reshuffling](https://arxiv.org/pdf/2102.06704.pdf).
+* __Solution__: Is is proposed to combine the method with two stepsizes with compression operators.
+* __Novelty__: This would be the first method combining 4 popular federated learning techniques: local steps, compression, reshuffling of data and two stepsizes. 
+* __Authors__:  Grigory Malinovsky
+
+
 ## Задача 92
 * __Задача__: Тематическое моделирование 
 * __Данные__:
