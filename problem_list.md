@@ -75,7 +75,7 @@
 * __Novelty__: In the literature of Second Order methods there are a few works on incremental methods. The idea is to analyze the existing method by applying different sampling strategies. It is known that the proper sampling strategies may improve the performance of a method.
 * __Authors__:  Islamov Rustem, Vadim Strijov
 
-## Задача 102
+## Задача 107
 * __Title__: Compression for Federated Random Reshuffling
 * __Problem__: We analyze first order methods solving Empirical Risk Minimization problem of the form min f(x) in R^d. Here x is a parameter vector of some Machine Learning model, f_i(x) is a loss function on i-th training point (a_i,b_i). We focus on distributed setting of this problem. We are going to apply compression techniques to reduce number of communicated bits to overcome communication bottleneck. Also we want to combine it with server-side updates. We desire to generalize and get improvement in theory and practice.
 * __Dataset__: It is proposed to use open SVM library as a data for experimental part of the work.
