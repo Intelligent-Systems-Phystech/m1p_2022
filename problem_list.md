@@ -207,6 +207,32 @@ benchmark of PPIs with known binding affinity values
   * Background in computational biology is a plus
 * __Authors__: Arne Schneuing, Ilia Igashov
 
+
+## Задача 109 
+* __Название__ Непрерывное время при построении нейроинтерфейса BCI 
+* __Задача__: 
+* __Данные__: Для классификации:
+  * датасет P300, по которому писали статью
+  * похожий на него по формату записей датасет DEAPdataset. 
+  * Определение эмоций.
+  * Тоже классификация эмоций SEED
+  * Не ЭЭГ, но данные акселерометров с классификацией активности/положения
+  * Для регрессии можно взять то же neurotycho, если хочется несколько усложнить жизнь относительно задач классификации.
+* __Литература__: 
+  * Neural Ordinary Differential Equations
+  * Neural controlled differential equations for irregular time series
+  * Latent ODEs for Irregularly-Sampled Time Series (?)
+  * GRU-ODE-Bayes: Continuous modeling of sporadically-observed time series (?)
+  * Neural Rough Differential Equations for Long Time Series (?)
+  * ODE2VAE: Deep generative second order ODEs with Bayesian neural networks (?)
+  * Go with the Flow: Adaptive Control for Neural ODEs
+  * Legendre Memory Units: Continuous-Time Representation in Recurrent Neural Networks
+  * Мой магистерский
+* __Базовой алгоритм__: Алгоритм Алины Самохиной
+* __Решение__: Использование вариаций  NeurODE для аппроксимации исходного сигнала. (Байес, частные производные, и т.д.). Сравнительный анализ существующих подходов к применению дифференциальных уравнений для классификации EEG
+* __Новизна__: предлагается способ построения непрервыного представления сигнала. Работа с функциональным пространством сигнала, а не его дискретным представлением. Использование параметров полученной функции в качестве признакового пространства результирующей модели.
+* __Авторы__: Алина Самохина 
+
 ## Задача 104
 * __Название__: (Ожидается уточнение) Кроссязычный поиск дубликатов
 * __Задача__: Ставится задача кроссязычного поиска текстового плагиата. Поиск дубликатов оригинального текста осуществуляется среди текстов на 100 различных языках.
