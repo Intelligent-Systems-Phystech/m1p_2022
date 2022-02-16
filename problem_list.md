@@ -7,7 +7,7 @@
 * __Литература__: Наши работы по акселерометрам и BCI, диссертации Мотренко, Исаченко, Грабового
 * __Базовой алгоритм__: Частные модели - нейросети, мультимодель – канонический корреляционный анализ и дистиллируется мультимодель.
 * __Решение__: Обобщить канонический корреляционный анализ и дистилляцию на случай произвольного числа моделей.
-* __Новизна__: В потолок.
+* __Новизна__: Построено выравнивающее пространство для набора гетерогенных моделей
 * __Авторы__: А.В. Грабовой, В.В. Стрижов
 
 
@@ -23,13 +23,21 @@
 
 ## Задача 91
 * __Название__: Кластеризация траекторий движения человека
-* __Задача__: Статью Грабового из Lobachevsky Journal of Mathematics довести до ума
-* __Данные__:
-* __Литература__: 
-* __Базовой алгоритм__: 
-* __Решение__: 
-* __Новизна__:
-* __Авторы__: А.В. Грабовой, В.В. Стрижов
+* __Задача__: This paper analyses the periodic signals in the time series to recognize human activity
+by using a mobile accelerometer. Each point in the timeline corresponds to a segment of
+historical time series. This segments form a phase trajectory in phase space of human activity.
+The principal components of segments of the phase trajectory are treated as feature descriptions
+at the point in the timeline. The paper introduces a new distance function between the points
+in new feature space. To reval changes of types of the human activity the paper proposes an
+algorithm. This algorithm clusters points of the timeline by using a pairwise distances matrix.
+The algorithm was tested on synthetic and real data. This real data were obtained from a
+mobile accelerometer
+* __Данные__: USC-HAD, новые выборки по акселерометрам
+* __Литература__: Grabovoy A.V., Strijov V.V. Quasi-periodic time series clustering for human activity recognition // Lobachevskii Journal of Mathematics, 2020, 41 : 333-339.
+* __Базовой алгоритм__: Гусеница
+* __Решение__: Статью Грабового из Lobachevsky Journal of Mathematics довести до ума
+* __Новизна__: Использовать Neuro ODE для построения фазовой траектории и ее классификации
+* __Авторы__: А.В. Грабовой (спросить!!), В.В. Стрижов
 
 ## Задача 97
 * __Название__: Антидистилляция или обучение учителя: перенос знаний от простой модели к сложной
