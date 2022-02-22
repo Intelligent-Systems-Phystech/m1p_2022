@@ -1,4 +1,4 @@
-# Моя перва научная статья, весенний семестр 2022
+# Моя первая научная статья, весенний семестр 2022
 
 [Список задач для выбора](problem_list.md)
 
@@ -12,5 +12,5 @@
 | [Заварзин Артём](https://github.com/Artemut555) | Графовые нейронные сети в задаче регрессии пар графов | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-102), [Paper](https://github.com/Intelligent-Systems-Phystech/2022-Project-102/raw/master/paper/Zavarzin2022GraphNN.pdf), [LinkReview](https://docs.google.com/document/d/1Ts_ojne5xHZuWo18lvi5-2ZjDGye3UQTcmiaICyHQW4/edit?usp=sharing) | Руководитель | Буквы |
 | [Владимиров Эдуард](https://github.com/Edyarich) | Восстановление движения руки по видео | [Github](https://github.com/Intelligent-Systems-Phystech/2022-Project-90), [LinkReview](https://docs.google.com/document/d/1RpWz1sqpgwnf-ewTe4OHI_WODGklx5FBjLfzvHkIUYQ/edit) | [Исаченко](https://github.com/r-isachenko) | Буквы |
 | [Мельников Игорь](https://github.com/MelnikovIgor1) | Stochastic Newton with Arbitrary Sampling | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-101), [Paper](https://github.com/Intelligent-Systems-Phystech/2022-Project-101/blob/master/paper/Melnikov2022StochasticNewtonWithArbitrarySampling.pdf), [LinkReview](https://docs.google.com/document/d/1wwLvqBrUV3atwJfnlqVRAhSk-KlUzbUpW6K_aaJ8arQ/) | Rustem Islamov | - |
-| [Корнилов Никита](https://github.com/Jhomanik) | Winterstorm risk prediction via machine learning methods | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-93-1) [Paper](https://github.com/Intelligent-Systems-Phystech/2022-Project-93-1/raw/master/paper/Winterstorm%20risk.pdf) | Юрий Максимов | Буквы |
+| [Корнилов Никита](https://github.com/Jhomanik) | Winterstorm risk prediction via machine learning methods | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-93-1), [Paper](https://github.com/Intelligent-Systems-Phystech/2022-Project-93-1/raw/master/paper/Winterstorm%20risk.pdf), [LinkReview](https://docs.google.com/document/d/1XAld9YsJ-R7Jv-i5SkIGNxX5Hy8vShPv8BA_jig9XcQ/edit?usp=sharing) | Юрий Максимов | Буквы |
 | [Пыж Владислав](https://github.com/vladpyzh) | Flood risk prediction via machine learning methods | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-93-2)  | Юрий Максимов | Буквы | 
