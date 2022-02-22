@@ -12,6 +12,6 @@
 | [Заварзин Артём](https://github.com/Artemut555) | Графовые нейронные сети в задаче регрессии пар графов | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-102), [Paper](https://github.com/Intelligent-Systems-Phystech/2022-Project-102/raw/master/paper/Zavarzin2022GraphNN.pdf), [LinkReview](https://docs.google.com/document/d/1Ts_ojne5xHZuWo18lvi5-2ZjDGye3UQTcmiaICyHQW4/edit?usp=sharing) | Руководитель | Буквы |
 | [Владимиров Эдуард](https://github.com/Edyarich) | Восстановление движения руки по видео | [Github](https://github.com/Intelligent-Systems-Phystech/2022-Project-90), [LinkReview](https://docs.google.com/document/d/1RpWz1sqpgwnf-ewTe4OHI_WODGklx5FBjLfzvHkIUYQ/edit) | [Исаченко](https://github.com/r-isachenko) | Буквы |
 | [Мельников Игорь](https://github.com/MelnikovIgor1) | Stochastic Newton with Arbitrary Sampling | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-101) | Rustem Islamov | - |
-| Автор | Тема | Ссылки | Руководитель | Буквы |
+| [Корнилов Никита](https://github.com/Jhomanik) | Winterstorm risk prediction via machine learning methods | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-93-1)  | Юрий Максимов | Буквы |
 | Автор | Тема | Ссылки | Руководитель | Буквы |
  
