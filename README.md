@@ -13,5 +13,4 @@
 | [Владимиров Эдуард](https://github.com/Edyarich) | Восстановление движения руки по видео | [Github](https://github.com/Intelligent-Systems-Phystech/2022-Project-90), [LinkReview](https://docs.google.com/document/d/1RpWz1sqpgwnf-ewTe4OHI_WODGklx5FBjLfzvHkIUYQ/edit) | [Исаченко](https://github.com/r-isachenko) | Буквы |
 | [Мельников Игорь](https://github.com/MelnikovIgor1) | Stochastic Newton with Arbitrary Sampling | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-101), [Paper](https://github.com/Intelligent-Systems-Phystech/2022-Project-101/blob/master/paper/Melnikov2022StochasticNewtonWithArbitrarySampling.pdf) | Rustem Islamov | - |
 | [Корнилов Никита](https://github.com/Jhomanik) | Winterstorm risk prediction via machine learning methods | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-93-1)  | Юрий Максимов | Буквы |
-| Автор | Тема | Ссылки | Руководитель | Буквы |
- 
+| [Пыж Владислав](https://github.com/vladpyzh) | Flood risk prediction via machine learning methods | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-93-2)  | Юрий Максимов | Буквы | 
