@@ -10,7 +10,7 @@
 |[Ольга Сухова](https://github.com/OlgaSukhovaUlara), [Дмитрий Ловчиков](https://github.com/syntheticerror) | Electromechanical characteristics of propulsion for micro-class underwater vehicles | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022_Project_Underwater.git), [LinkReview]() , [Paper](https://github.com/Intelligent-Systems-Phystech/2022_Project_Underwater/raw/master/paper/LovchikovSukhova2022Underwater.pdf), [Slides]() | [Воронцов]() | - |
 | [Гапонов Максим](https://github.com/Maxgaponov) | Выбор интерпретируемых сверточных моделей глубокого обучения | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-99), [LinkReview](https://docs.google.com/document/d/1R-IAGa-w5Edc23jfB_68OZ34EiBlRq6Yaoc1XR_mQ9g/edit?usp=sharing), [Paper](https://github.com/Intelligent-Systems-Phystech/2022-Project-99/raw/master/paper/Gaponov2022InterpretableCNN.pdf) | [Бахтеев](https://github.com/bahleg) | - |
 | [Заварзин Артём](https://github.com/Artemut555) | Графовые нейронные сети в задаче регрессии пар графов | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-102) | Руководитель | Буквы |
-| Автор | Тема | Ссылки | Руководитель | Буквы |
+| [Владимиров Эдуард](https://github.com/Edyarich) | Восстановление движения руки по видео | [Github](https://github.com/Intelligent-Systems-Phystech/2022-Project-90), [LinkReview](https://docs.google.com/document/d/1RpWz1sqpgwnf-ewTe4OHI_WODGklx5FBjLfzvHkIUYQ/edit) | [Исаченко](https://github.com/r-isachenko) | Буквы |
 | Автор | Тема | Ссылки | Руководитель | Буквы |
 | Автор | Тема | Ссылки | Руководитель | Буквы |
  
