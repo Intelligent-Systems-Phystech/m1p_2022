@@ -22,5 +22,4 @@
 | [Змушко Филипп](https://github.com/fzmushko) | Непрерывное время при построении нейроинтерфейса BCI | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-109), [Paper](https://github.com/Intelligent-Systems-Phystech/2022-Project-109/blob/master/paper/Zmushko2022ContinuousTime.pdf), [LinkReview](https://docs.google.com/document/d/1tpH34r2x4vRWgaBeBkf8yp__-qGyDQNST-w7X29qgPg/edit?usp=sharing) | [Самохина](https://github.com/Alina-Samokhina)| - |
 | [Павлов Дмитрий](https://github.com/YHx07) | Построение прогнозной моделей развития стартапов | [GitHub](https://github.com/Intelligent-Systems-Phystech/2022-Project-vc), [Paper], [LinkReview] | Антон Моисеев | - |
 [Алиев Ален](https://github.com/AlievAE) | Geometric Deep Learning for Protein-Protein Binding Affinity
-Prediction
- | [GitHub], [Paper], [LinkReview]
+Prediction | [GitHub], [Paper], [LinkReview]
